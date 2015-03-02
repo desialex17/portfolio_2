@@ -1,0 +1,120 @@
+/*
+Desiree's Portfolio v.1
+Author: Desiree Mathurin
+
+*/
+
+body{
+	background-color: #262626;
+	padding-top: 0px;
+}
+
+/* Navigation*/
+
+nav {
+	background-color: #980002;
+	color: white;
+	display: block;
+	position: fixed;
+	width:100%;
+	top:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ li{
+ 	display:inline;
+ }
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li > a {
+			color: black;
+			display: inline;
+			line-height: 100px;
+			padding: 20px 20px 20px 20px;
+			font-size: 30px;
+			font-family: garamond, times, serif;
+			font-style: strong;
+		}
+
+nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+
+        }
+
+nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+
+
+/*End Nav*/
+
+/*Header*/	
+.header{
+	font-family: 'Metal Mania', cursive;
+	color:#980002;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 125px;
+	background-color:white ;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin:200px 50px 25px 50px;
+}
+
+hr{
+	border-color: 980002;
+	border-style: solid;
+	border-width: 10px;
+}
+/*End Header*/
+
+.subheader{
+	font-family:'Trade Winds', cursive;
+	background-color:#262626;
+	color:#980002;
+	font-size: 50px;
+	
+	
+}
+
+
+div{
+	background-color: white;
+	font-family:garamond, times, serif;
+	text-align: justify;
+	color:black;
+	padding:10px 10px 10px 10px;
+	border-radius: 40px;
+
+}
+
+/*End Header*/
+
+.divright{
+	float:right;
+	width: 40%;
+	margin-bottom: 60px;
+
+}
+
+.divvideo{
+	float:left;
+	background-color: #262626;
+	margin-bottom: 60px;
+
+}
+
+
