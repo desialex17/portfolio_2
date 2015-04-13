@@ -117,4 +117,13 @@ div{
 
 }
 
+#divupdate{
+	background-color: white;
+	font-family: georgia, times, serif;
+	text-align: justify;
+	padding: 10px 10px 10px 10px;
+	border-radius: 40px;
+	
+}
+
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 6 - Intro to JavaScript</title>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+//document.write('Hello, World!');
+
+ var h = document.createElement('h1');
+ console.log(h);
+
+ var t =document.createTextNode('Hello, World!');
+ console.log(t);
+
+ h.appendChild(t);
+console.log(h);
+
+var c = document.getElementById('container');
+console.log(c);
+
+c.appendChild(h);
+
+
+var n='Desiree';
+var m ='Alexis';
+var l= 'Mathurin'
+
+runAlert(n);
+runAlert(m);
+runAlert(l);
+
+function runAlert(name){
+
+	alert('Hello, ' + name + '!');
+}
+
+
+  </script>
+</body>
+</html>
